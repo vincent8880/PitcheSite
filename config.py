@@ -51,7 +51,7 @@ class TestConfig(Config):
         Config: The parent configuration class with general configuration settings
     '''
     DATABASE_PASS = os.environ.get('DATABASE_PASS')
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://vincent:'+DATABASE_PASS+'@localhost/pitchit_test'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://vincent:12345@localhost/pitchit_test'
 
 config_options = {
     'development':DevConfig,
