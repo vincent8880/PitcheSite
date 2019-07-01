@@ -19,9 +19,6 @@ A user can select any of the categories from the navbar to view the pitches on t
 Other users can give feedback to the pitch posts by commenting, liking or disliking the pitch. 
 
 
-## Specifications
-Get the specs [here](https://github.com/devwaweru/PitchIt/blob/master/SPECS.md)
-
 ## Set-up and Installation
 
 ### Prerequiites
@@ -46,7 +43,7 @@ Install dependancies that will create an environment for the app to run
 
 ### Prepare environment variables
 ```bash
-export DATABASE_URL='postgresql+psycopg2://username:password@localhost/pitchit'
+export DATABASE_URL='postgresql+psycopg2://username:password@localhost/eren'
 export SECRET_KEY='Your secret key'
 ```
 
@@ -75,7 +72,7 @@ SQLAlchemy errors, automatic sign out has a short time span
     - Postgresql
 
 ## Support and contact details
-Contact me on developer.waweru@gmail.com for any comments, reviews or advice.
+Contact me on ododovincent54@gmail.com for any comments, reviews or advice.
 
 ### License
-Copyright (c) **Richard Waweru**
+Copyright (c) **Vincent Ododo**
