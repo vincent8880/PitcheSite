@@ -15,6 +15,16 @@ class Config:
     MAIL_USE_TLS=os.environ.get('MAIL_USE_TLS')
     MAIL_USERNAME=os.environ.get('MAIL_USERNAME')
     MAIL_PASSWORD=os.environ.get('MAIL_PASSWORD')
+    SECRET_KEY='12345678'
+    MAIL_USERNAME='ododovincent54@gmail.com'
+    MAIL_PASSWORD='lionelandresmessi'
+    DATABASE_PASS='12345'
+    DATABASE_URL='postgresql+psycopg2://vincent:12345@localhost/pitchit_test'
+
+
+    MAIL_SERVER ='smtp.googlemail.com'
+    MAIL_PORT=587
+    MAIL_USE_TLS=True
 
     #Simple MDE configurations
     SIMPLEMDE_JS_IIFE = True
