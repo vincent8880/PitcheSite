@@ -1,7 +1,6 @@
-# [PitchIt](https://pitching.herokuapp.com/)
-## Pitch It is a web application that is meant for users to add pitches on 7 different categories
+
+## Pitches It is a web application that is meant for users to add pitches on 7 different categories
 ### May 18th, 2018
-#### By **[Richard Waweru](https://github.com/devwaweru)**
 
 ## Description
 The Pitch It web application is meant for users to post pitches on any of the 7 different categories. These categories are:
