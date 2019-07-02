@@ -24,13 +24,6 @@ Other users can give feedback to the pitch posts by commenting, liking or dislik
 ### Prerequiites
     - Python 3.6
     - Ubuntu software
-
-### Clone the Repo
-Run the following command on the terminal:
-`git clone https://github.com/DevWaweru/PitchIt.git && cd PitchIt`
-
-Install [Postgres](https://www.postgresql.org/download/)
-
 ### Create a Virtual Environment
 Run the following commands in the same terminal:
 `sudo apt-get install python3.6-venv`
